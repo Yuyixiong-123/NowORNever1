@@ -1,0 +1,6 @@
+[student_info]
+id = 13000000
+password = 000000
+[course_info]
+course_name = 嵌入式系统
+course_url = https://course.e.buaa.edu.cn/opencourse/course/detail/5437
