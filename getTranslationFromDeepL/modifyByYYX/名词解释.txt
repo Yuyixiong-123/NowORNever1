@@ -7,6 +7,15 @@ enclave
 DFD
 FU
 LASHE模式
+MEZ
+ABT/TM 
+NLOS
+Guidance/IFTU
+explicit /implicit networks 
+FOV
+ARM
+
+In-Flight Target Updates (IFTUs) 
 
 问题：
 一边校订语法错误和一边认真学习理解生涩艰难的内容，是不太可能实现的
@@ -14,4 +23,4 @@ LASHE模式
 自己没有深入思考过系统的建模，上来看人家深思熟虑，步步补充丰富的操作文档，会有很大的思维/视野隔阂，不知道怎么来的，这么处理的好处/弊端是什么。
 有一些很难看懂的地方，逐渐积累，下文更加看不懂。
 
-我似乎是在抱怨，不断的证明这是一件很难的事情。
+//我似乎是在抱怨，不断的证明这是一件很难的事情。
