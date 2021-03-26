@@ -1,26 +1,27 @@
-NBroadcast
-Pk
-TMDA
-UT1/2
-NBroadcast
-enclave 
-DFD
-FU
-LASHE模式
-MEZ
-ABT/TM 
-NLOS
-Guidance/IFTU
-explicit /implicit networks 
-FOV
-ARM
+NBroadcast：non-broadcast
+Pk：probability of kill 毁伤概率/击毙概率
+TMDA：Tactical Missile Defended Areas (TMDAs) 战术导弹防御区
+UT1：Upper Tier 1
+UT2：Upper Tier 2 
+enclave ： 不同的战场
+DFD：data functional descriptor 数据功能描述符/表
+DFD：评级，这是衡量信息质量的标准
+FU：Fire Unit
+LASHE模式：Low Altitude Simultaneous HAWK Engagement (LASHE) mode 低空鹰同步交战模式
+MEZ：Missile Engagement Zone 导弹交战区
+ABTs（空中目标），CMs（巡航导弹），或TBMs（战术弹道导弹）TM 战术导弹
+NLOS ： Non-Line of Sight 非视距的
+Guidance/IFTU：  IFTU	编队中跟踪更新
+explicit /implicit networks ： 显式/隐式网络（不清楚在实际战场中是什么含义，还有显式/隐式导弹的概念）
+FOV：  field of view 视距，传感器概念
+EMCON：Emissions control  （minimal radio emissions） 军事上翻译为最小无线电排放
+ARM：alarm
+User Rules：文中作为一个phase被定义，不知道是何含义
+DIS信号PDU：Data Inventory Service 猜测应该信号/数据传输的概念
+LCS：Launcher Control Station 发射控制站点
+ECI：earth centered inertial 地心惯性坐标系
 
+EWDPC：预警数据处理中心
+LID ： 情报数据级别  Level of Intelligence Data 
+Battle Damage Assessment (BDA) 对被攻击目标的战损评估（BDA）
 In-Flight Target Updates (IFTUs) 
-
-问题：
-一边校订语法错误和一边认真学习理解生涩艰难的内容，是不太可能实现的
-内容本身难以理解，不应该完全视为翻译者的问题，理论力学全中国几亿人都难以理解
-自己没有深入思考过系统的建模，上来看人家深思熟虑，步步补充丰富的操作文档，会有很大的思维/视野隔阂，不知道怎么来的，这么处理的好处/弊端是什么。
-有一些很难看懂的地方，逐渐积累，下文更加看不懂。
-
-//我似乎是在抱怨，不断的证明这是一件很难的事情。
