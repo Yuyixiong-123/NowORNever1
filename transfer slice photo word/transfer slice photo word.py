@@ -6,8 +6,8 @@ No pain no gain
 """
 
 
-name="技术要求"
-path=r"C:/Users/YU Yixiong/Desktop/技术要求文件"
+name="民诉-第四周"
+path=r"D:\download\第四周"
 
 from aip import AipOcr
 import os
@@ -42,9 +42,8 @@ doc = Document("template.docx")
 doc.save(name+'.docx')
 for i in range(len(os.listdir(path))):
     doc=Document(name+'.docx')
-    index=path+"\ ("+str(i+1)+').png'
+    index=path+"/  (%i).jpg"%(i+1)
     getresult = image2text(index)
-    # textList.append(getresult)
     
     # to delete the whatnot info that prohibit python-docx insert image
     f = Image.open(index)#你的图片文件
@@ -54,12 +53,6 @@ for i in range(len(os.listdir(path))):
     doc.add_picture(index,width=Inches(6))
     paragraph = doc.add_paragraph(getresult)
     doc.save(name+'.docx')
-    # with open('债法课件txt.txt','a') as f:
-    #     f.write('\r\n')
-    #     f.write('页面'+str(i))
-    #     f.write('\r\n')
-    #     f.write(getresult)
-    #     f.close()
     
     print('页面'+str(i)+'已完成')
 
