@@ -20,7 +20,6 @@ User Rules：文中作为一个phase被定义，不知道是何含义
 DIS信号PDU：Data Inventory Service 猜测应该信号/数据传输的概念
 LCS：Launcher Control Station 发射控制站点
 ECI：earth centered inertial 地心惯性坐标系
-
 EWDPC：预警数据处理中心
 LID ： 情报数据级别  Level of Intelligence Data 
 Battle Damage Assessment (BDA) 对被攻击目标的战损评估（BDA）
