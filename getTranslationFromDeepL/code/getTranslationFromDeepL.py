@@ -37,25 +37,45 @@ def getTranFromDeepL(engPara,sleepTime):
     # time.sleep(1) 
     browser.close()
     return copyStr
+
+def isTitle(result):
+    while result[0]==' ' or ord(result[0])==160:
+          result=result[1:]
+    if ord(result[0])==52:
+        return True
+    else:
+        return False
     
 def getHeadingLevel(result):
-     headSeri=''
-     counter=-1 
-     if result[0]==' ':
-          result=result[1:]
-     if ord(result[0])==52:
-          for s in range(len(result)):
-               if result[s]==' ':
-                    headSeri=result[:s]
-                    break
-          for s in headSeri:
-               if s==".":
-                    counter+=1
-           # print(headSeri)
-          return counter
-     else:
-          # print("not heading"+str(result))
-          return -1
+    headSeri=''
+    counter=-1 
+    
+    for s in range(len(result)):
+         if result[s]==' ':
+              headSeri=result[:s]
+              break
+    for s in headSeri:
+         if s==".":
+              counter+=1
+     # print(headSeri)
+    return counter
+     
+def modifyTheTitle(titleStr):
+    prefix=''
+    suffix=''
+    while(titleStr[0]==' ' or ord(titleStr[0])==160):
+          titleStr=titleStr[1:]
+    for s in range(len(titleStr)):
+        if titleStr[s]==' ' or ord(titleStr[s])==160:
+             prefix=titleStr[:s]
+             print(prefix)
+             suffix=titleStr[s:]
+             break
+    while(suffix[0]==' ' or ord(suffix[0])==160):
+          suffix=suffix[1:]
+          # print(suffix)
+    return prefix+' '+suffix
+
 def getSleepTime(string):
     l=len(string)
     if l<50:
@@ -79,7 +99,10 @@ if __name__ =="__main__":
               result=getTranFromDeepL(engPara,getSleepTime(engPara))
               headLevel=getHeadingLevel(engPara)
               sheet.cell(i,2).value=result
-              if headLevel != -1:
+              
+              if isTitle(engPara) ==True :
+                   engPara=modifyTheTitle(engPara)
+                   headLevel=getHeadingLevel(engPara)
                    document.add_heading(engPara,headLevel)
                    document.add_paragraph(result)
               else:
