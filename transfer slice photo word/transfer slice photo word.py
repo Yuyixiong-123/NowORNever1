@@ -6,8 +6,8 @@ No pain no gain
 """
 
 
-name="民诉-第四周"
-path=r"D:\download\第四周"
+name="习近平党史观"
+path=r"C:/Users/YU Yixiong/Desktop/习近平党史观"
 
 from aip import AipOcr
 import os
@@ -42,7 +42,7 @@ doc = Document("template.docx")
 doc.save(name+'.docx')
 for i in range(len(os.listdir(path))):
     doc=Document(name+'.docx')
-    index=path+"/  (%i).jpg"%(i+1)
+    index=path+"/ (%i).png"%(i+1)
     getresult = image2text(index)
     
     # to delete the whatnot info that prohibit python-docx insert image
