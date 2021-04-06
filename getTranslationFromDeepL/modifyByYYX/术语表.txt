@@ -1,1 +1,3 @@
 Battery(Btry)
+CAP
+Sector Operations Center
