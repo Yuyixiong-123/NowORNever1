@@ -101,7 +101,7 @@ if __name__ =="__main__":
      wb=openpyxl.load_workbook(Config.paraElementsPath)
      sheet=wb["Sheet1"]
      
-     for i in range(200,250):#max row equal 68
+     for i in range(250,sheet.max_row+1):#max row equal 68
      # for i in range(1,50):
           print(i)
      # for i in range(1,sheet.max_row+1):
