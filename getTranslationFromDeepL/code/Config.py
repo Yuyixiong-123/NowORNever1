@@ -6,6 +6,6 @@ Created on Fri Mar 19 11:24:42 2021
 
 note: 
 """
-paraElementsPath="../paraNeedTranslate/paragraphElement-phase2.xlsx"
+paraElementsPath="../paraNeedTranslate/paragraphElement-phase3.xlsx"
 templatePath="../outputData/template.docx"
-savePath="../outputData/paragraphElement-phase2.docx"
+savePath="../outputData/paragraphElement-phase3.docx"

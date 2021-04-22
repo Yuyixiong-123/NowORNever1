@@ -9,6 +9,9 @@ from selenium import webdriver
 import time
 from webdriver_manager.chrome import ChromeDriverManager
 import pyperclip
+from urllib.request import urlopen
+from urllib.request import urlretrieve
+from bs4 import BeautifulSoup as bf
 
 
 def getTranFromDeepL(engPara):
@@ -18,13 +21,28 @@ def getTranFromDeepL(engPara):
     browser.get(r'https://www.deepl.com/translator#en/zh/'+engPara)
     
     time.sleep(6) 
-    browser.find_element_by_class_name("lmt__target_toolbar__copy").click()
+    result=browser.find_element_by_id("target-dummydiv").get_attribute('value')
     # time.sleep(1) 
     
     print(0)
     print(pyperclip.paste())
     print(1)
+    
     # time.sleep(1) 
     browser.close()
+    return result
 
-chPara=getTranFromDeepL("When an Intel CAC receives a track message that is marked as an intel message, then the message is immediately processed and an intelligence report is generated with no checks on the number of sources, updates, time-interval criteria, or correlation probability. The message is delayed by the amount of time specified on the Track Data Message Processing Time field on the Communication Options window of the Intelligence Center ruleset window.")
+def getHtml(url):
+    html=urlopen(url)
+    time.sleep(10)
+    html_text=bytes.decode(html.read())
+    obj=bf(html.read(),'html.parser')
+    # title=obj.title
+    pic_info=obj.find_all('img')
+
+    return html_text
+
+# chPara=getTranFromDeepL("When an Intel CAC receives a track message that is marked as an intel message, then the message is immediately processed and an intelligence report is generated with no checks on the number of sources, updates, time-interval criteria, or correlation probability. The message is delayed by the amount of time specified on the Track Data Message Processing Time field on the Communication Options window of the Intelligence Center ruleset window.")
+with open("1.txt",'w',encoding="utf-8") as f:
+    url=r'https://www.deepl.com/translator#en/zh/'+'from urllib import parse'
+    f.write(getHtml(url))

@@ -79,18 +79,29 @@ def modifyTheTitle(titleStr):
 def getSleepTime(string):
     l=len(string)
     if l<50:
-        return 6
+        return 12
     if l>700:
-        return 10
+        return 20
     else:
-        return 8
+        return 16
+
+def saveData(wb,document):
+    wb.save(Config.paraElementsPath)
+    document.save(Config.savePath)
+    
+    document=docx.Document(Config.savePath)
+    
+    wb=openpyxl.load_workbook(Config.paraElementsPath)
+    sheet=wb["Sheet1"]
+    return sheet
+
 if __name__ =="__main__":
      
-     document=docx.Document(Config.templatePath)
+     document=docx.Document(Config.savePath)
      wb=openpyxl.load_workbook(Config.paraElementsPath)
      sheet=wb["Sheet1"]
      
-     for i in range(1,sheet.max_row+1):#max row equal 68
+     for i in range(200,250):#max row equal 68
      # for i in range(1,50):
           print(i)
      # for i in range(1,sheet.max_row+1):
@@ -105,9 +116,11 @@ if __name__ =="__main__":
                    headLevel=getHeadingLevel(engPara)
                    document.add_heading(engPara,headLevel)
                    document.add_paragraph(result)
+                   sheet=saveData(wb, document)
               else:
                    document.add_paragraph('\n    '+engPara)
                    document.add_paragraph(result)
+                   sheet=saveData(wb, document)
           except:
               document.add_paragraph('\n    '+engPara)
               pass
