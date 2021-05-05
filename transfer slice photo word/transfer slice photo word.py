@@ -6,8 +6,8 @@ No pain no gain
 """
 
 
-name="习近平党史观"
-path=r"C:/Users/YU Yixiong/Desktop/习近平党史观"
+name="boeingMaterials"
+path=r"C:/Users/YU Yixiong/Desktop/BoeingReport"
 
 from aip import AipOcr
 import os
@@ -16,8 +16,10 @@ from docx import Document
 from docx.shared import Inches
 
 APP_ID='老老实实抱着我'
-API_KEY='517d60b47eed4ebfa794dcf667f5eec3'
-SECRET_KEY='e054e6b427d0468296e3436893c5e25b'
+API_KEY='zCLERFdytz8bn38mPrM9ceWs'
+SECRET_KEY='ESFdhhG7dO9QkyeFvSOQDtbK2tsX28Il '
+# API_KEY='517d60b47eed4ebfa794dcf667f5eec3'
+# SECRET_KEY='e054e6b427d0468296e3436893c5e25b'
 client=AipOcr(APP_ID, API_KEY, SECRET_KEY)
  
 def get_file_content(filePath):
