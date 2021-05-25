@@ -8,6 +8,7 @@ to me, you are my perfect
 https://blog.csdn.net/nanbei2463776506/article/details/82967140
 
 """
+import pyperclip
 def E_trans_to_C(string):
     E_pun = u',.!?[]()<>"\''
     C_pun = u'，。！？【】（）《》“‘'
@@ -33,4 +34,5 @@ while(stop==False):
     ca=E_trans_to_C(a)
     print("********************************************************************")
     print(ca)
+    pyperclip.copy(ca)
     print("********************************************************************")
