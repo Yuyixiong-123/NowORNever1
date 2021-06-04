@@ -41,7 +41,7 @@ def getTranFromDeepL(engPara,sleepTime):
 def isTitle(result):
     while result[0]==' ' or ord(result[0])==160:
           result=result[1:]
-    if ord(result[0])==52:
+    if ord(result[0])==53:
         return True
     else:
         return False
