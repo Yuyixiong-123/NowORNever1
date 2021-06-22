@@ -1,0 +1,17 @@
+Airplane Performance
+Aircraft Class:harter 3D 
+Thrust-Weight-Ratio:1:1
+Stall Speed:
+ (1g, clean)21...26km/h
+Best Range Speed:
+ (acc. Carson)31km/h
+max. Speed:
+ (Horizontal-Flug))60km/h
+Pitch Speed:52km/h
+Zero Thrust Speed:75km/h
+max. Propeller Power:516W
+electric Power:649W
+max. vertical Speed:0m/s
+max. Angle of Climb:32°
+max. Rate of Climb:4.7m/s
+Time to Height:21s
