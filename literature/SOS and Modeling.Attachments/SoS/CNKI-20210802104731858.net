@@ -1,0 +1,314 @@
+{Reference Type}: Journal Article
+{Title}: 飞行器智能设计愿景与关键问题
+{Author}: 李霓;布树辉;尚柏林;李永波;汤志荔;张伟伟;
+{Author Address}: 西北工业大学航空学院;
+{Journal}: 航空学报
+{Year}: 2021
+{Volume}: 42
+{Issue}: 04
+{Pages}: 213-230
+{Keywords}: 飞行器;智能设计;人工智能;机器学习;全生命周期
+{Abstract}: 未来飞行器正朝着多元化、无人化和智能化的方向发展,高超声速、超隐身和变体等新型飞行器不断涌现。而传统飞行器解耦分拆的设计方法越来越难以满足未来飞行器综合性能全面提升的要求,只有通过整体化设计才能充分发掘飞行器的潜能。通过分析传统飞行器设计中存在的问题,提出满足全生命周期要求的飞行器智能设计体系理念,利用知识库的构建将智能赋予飞行器平台系统设计、制造生产和运维这3个阶段,并通过数字孪生技术进行飞行器全生命周期的仿真、分析和预测,以对飞行器设计、运行等数据进行更新,使该体系形成闭环。就飞行器智能设计体系中需要的关键技术及涉及的科学问题等进行了讨论,并给出了未来发展方向以供参考。
+{ISBN/ISSN}: 1000-6893
+{Notes}: 11-1929/V
+{Database Provider}: CNKI
+
+{Reference Type}: Journal Article
+{Title}: 基于DoDAF的海洋无人信息平台体系结构设计
+{Author}: 张一;
+{Author Address}: 成都天奥信息科技有限公司;
+{Journal}: 电讯技术
+{Year}: 2021
+{Volume}: 61
+{Issue}: 03
+{Pages}: 276-282
+{Keywords}: 海洋信息网络;无人信息平台;美国国防部体系结构框架;体系结构设计
+{Abstract}: 海洋信息网络是我国近年来海洋强国战略下重要的科研示范项目。传统的系统集成方法难以支撑海洋无人信息平台作为海洋信息网络重要节点和创新装备的顶层设计需要,为此基于美国国防部体系结构框架(Department of Defense Architecture Framework,DoDAF)标准,分析了海洋无人信息平台任务需求、资源配置、功能应用等重要问题,进行了海洋无人信息平台顶层设计,论证了全景视角、任务视角、系统视角等多个模型的可行性,介绍了海洋无人信息平台部分装备的功能特性,提出了增强平台服务能力、可迭代发展的体系结构方案。
+{ISBN/ISSN}: 1001-893X
+{Notes}: 51-1267/TN
+{Database Provider}: CNKI
+
+{Reference Type}: Journal Article
+{Title}: 基于MBSE的卫星通信系统建模与仿真
+{Author}: 李文屏;白鹤峰;赵毅;武磊磊;王晓婷;
+{Author Address}: 北京跟踪与通信技术研究所;中国空间技术研究院西安分院;
+{Journal}: 天地一体化信息网络
+{Year}: 2021
+{Volume}: 2
+{Issue}: 01
+{Pages}: 69-74+80
+{Keywords}: MBSE;DoDAF;卫星通信;系统视图;建模与仿真
+{Abstract}: 针对复杂卫星通信系统建设与应用中面临的设计、描述、验证、确认等问题,提出基于MBSE开展卫星通信系统立项论证、顶层设计和工程建设的设计方法。参考美国国防部体系结构框架(DoDAF),使用系统架构设计工具(SA)构建卫星通信系统的功能模型、节点模型和流程模型等系统视图(SV),开展基于模型驱动的数字化仿真,通过分析仿真数据验证系统设计的正确性、合理性和可行性。结果表明采用该方法在系统设计阶段能够有效识别风险,验证和确认设计方案,为卫星通信系统立项论证、顶层设计和工程建设提供有力支撑。
+{ISBN/ISSN}: 2096-8930
+{Notes}: 10-1706/TN
+{Database Provider}: CNKI
+
+{Reference Type}: Journal Article
+{Title}: 基于DoDAF的电磁频谱作战指挥控制系统架构研究
+{Author}: 康国钦;陈正榕;夏权;夏雷;
+{Author Address}: 国防科技大学信息通信学院;
+{Journal}: 现代雷达
+{Year}: 2021
+{Volume}: 43
+{Issue}: 02
+{Pages}: 1-10
+{Keywords}: 国防部体系结构框架;电磁频谱作战;指挥控制系统;体系架构
+{Abstract}: 文中设计了电磁频谱作战指挥控制系统架构的作战视图、系统视图和技术视图,提出了电磁频谱域战管融合、人机一体的电磁频谱作战指挥控制系统架构开发方法。从作战活动模型、作战状态转移描述、逻辑数据模型、作战规则模型等角度建立作战行动模型。构想战场情况,建立电磁频谱作战规则集。用需求映射的方法,建立了电磁频谱作战指挥控制系统视图。通过心跳检测技术对系统接口双机热备份进行主备管理。利用射频数据链和激光数据链优势互补将指控信息传输到战场末端。系统特色功能包括电磁态势多源融合、电波模型高速匹配、边缘计算辅助在线决策、预置电磁情况处置策略等。该研究对优化电磁频谱作战指挥控制系统体系架构具有借鉴作用。
+{ISBN/ISSN}: 1004-7859
+{Notes}: 32-1353/TN
+{Database Provider}: CNKI
+
+{Reference Type}: Journal Article
+{Title}: 基于DoDAF的有/无人协同特战系统总体结构设计
+{Author}: 周菁;杨鸣坤;王磊;齐飞林;
+{Author Address}: 中国电子科技集团公司第二十研究所雷达部;桂林航天工业学院计算机科学与工程学院;
+{Journal}: 兵工自动化
+{Year}: 2021
+{Volume}: 40
+{Issue}: 01
+{Pages}: 3-7
+{Keywords}: DoDAF;军事概念建模;反恐特战;结构模型
+{Abstract}: 为增强应对暴力冲突事件能力,建立有效的反恐力量,采用美国国防部体系结构框架(department of defense architecture framework,DoDAF)设计一种空地无人平台与特战班组协同反恐系统的总体结构。以特种破袭使命为任务背景,建立特战系统的视点模型,对整体框架进行规范化和系统化的描述。结果表明:该设计能为军事概念建模提供形式化描述,对有/无人协同反恐系统顶层设计具有参考价值。
+{ISBN/ISSN}: 1006-1576
+{Notes}: 51-1419/TP
+{Database Provider}: CNKI
+
+{Reference Type}: Journal Article
+{Title}: 基于流程的作战任务规划作业体系SysML建模方法研究
+{Author}: 姜俊;赵金超;
+{Author Address}: 海军工程大学;
+{Journal}: 军事运筹与系统工程
+{Year}: 2020
+{Volume}: 34
+{Issue}: 04
+{Pages}: 60-67
+{Keywords}: 作战任务规划;作业体系;SysML;可视化建模
+{Abstract}: 针对目前作战任务规划在作战指挥保障运用和系统建设上的需要,以美军作战任务规划流程为基础,构建了作战任务规划作业体系的可视化模型。将DoDAF和SysML相结合,按照"使命任务—功能—作业活动"的层级分解逻辑,描述了作战任务规划作业体系的功能结构与相关业务活动、信息交互,设计了DoDAF框架下最小产品集的SysML模型,并验证了其正确性和动态性能,可为科学组织作战任务规划作业和支持系统设计开发提供一种一致的描述方法。
+{ISBN/ISSN}: 1672-8211
+{Notes}: 11-4662/E
+{Database Provider}: CNKI
+
+{Reference Type}: Journal Article
+{Title}: 基于DoDAF的无人机协同作战效能评估
+{Author}: 王瑛;史翔宇;李超;
+{Author Address}: 空军工程大学装备管理与无人机工程学院;
+{Journal}: 空军工程大学学报(自然科学版)
+{Year}: 2020
+{Volume}: 21
+{Issue}: 06
+{Pages}: 66-72
+{Keywords}: DoDAF;ADC模型;无人机体系;协同作战;效能评估
+{Abstract}: 对无人机协同作战进行效能评估能够有效分析系统性能好坏,对提升系统作战能力有积极意义。针对无人机作战编队,使用DoDAF构建无人协同作战体系框架,分析作战活动与能力之间的关系,建立协同作战能力指标体系;对于不同类型的指标进行差异化处理,分别采用尺度标度法、概率计算法与聚合法处理量纲类指标、定量型概率类指标与定性型概率类指标;使用ADC模型,扩展系统能力向量,将生存能力、电子对抗能力等综合性指标考虑在内,突破单项指标的局限性;最后以对地作战典型任务下的无人机协同作战为场景,使用该方法对不同作战方案进行效能评估,计算结果验证了该方法的有效性。
+{ISBN/ISSN}: 1009-3516
+{Notes}: 61-1338/N
+{Database Provider}: CNKI
+
+{Reference Type}: Conference Proceedings
+{Title}: 基于Do DAF理论的无人作战体系标准化研究
+{Tertiary Title}: 中国航天电子技术研究院科学技术委员会2020年学术年会优秀论文集
+{Author}: 宓铁良;段方;郭育青;
+{Author Address}: 航天时代飞鸿技术有限公司;
+{Secondary Title}: 中国航天电子技术研究院科学技术委员会2020年学术年会
+{Place Published}: 中国北京
+{Subsidiary Author,}: 中国航天电子技术研究院科学技术委员会
+{Year}: 2020
+{Pages}: 10
+{Keywords}: DoDAF理论;无人作战体系;体系结构;体系标准
+{Abstract}: 本文基于DoDAF理论体系结构设计思想,研究无人作战体系的标准规范,综合分析无人作战体系的理论视角和模型,提出无人作战系统标准化体系结构的设计思想及开发流程,构建无人作战体系标准化体系结构框架,满足未来无人作战体系协同作战需求,为无人作战体系标准化建设提供理论基础和研究方法。
+{Database Provider}: CNKI
+
+{Reference Type}: Journal Article
+{Title}: 一种军用直升机战技需求的灵活分析流程
+{Author}: 辛冀;孙磊;潘寒尽;
+{Author Address}: 中国直升机设计研究所;陆军航空兵研究所;
+{Journal}: 科技导报
+{Year}: 2020
+{Volume}: 38
+{Issue}: 21
+{Pages}: 169-176
+{Keywords}: 军用直升机;战技需求;作战装备
+{Abstract}: 提出了一种先整体定性分析、再分别定量分析的直升机装备顶层战技指标需求分析的工作流程。通过建立数个典型作战构想,承接军方关键需求。结合国防部体系架构框架(DoDAF)方法论进行构想分析,得到装备使用能力需求。引入用例思想,将能力按逻辑关联划分为多个用例,每一用例定义多个功能场景,力求覆盖装备的任务和使用环境,基于场景提取战技指标值,借助需求与使用场景的密切关联性和追溯性,提出了对客户和技术人员需求变更申请的快速响应工作流程。以一型假想的运输直升机为例,对流程做举例说明。
+{ISBN/ISSN}: 1000-7857
+{Notes}: 11-1421/N
+{Database Provider}: CNKI
+
+{Reference Type}: Journal Article
+{Title}: Engineering; New Findings on Engineering Described by Investigators at National University of Defense Technology (A Semi-automatic Optimization Design Method for Svcv-5 In Dodaf 2.0 Based On Service Identification)
+{Journal}: Journal of Engineering
+{Year}: 2020
+{ISBN/ISSN}: 1945--8711
+{Database Provider}: CNKI
+
+{Reference Type}: Conference Proceedings
+{Title}: 基于DoDAF的核生化灾害应急救援指挥体系结构模型
+{Tertiary Title}: 第八届中国指挥控制大会论文集
+{Author}: 马建武;赵法栋;
+{Author Address}: 武警工程大学;
+{Secondary Title}: 第八届中国指挥控制大会
+{Place Published}: 中国北京
+{Subsidiary Author,}: 中国指挥与控制学会（Chinese Institute of Command and Control）
+{Year}: 2020
+{Pages}: 7
+{Keywords}: DoDAF;核生化灾害;应急救援;指挥体系
+{Abstract}: 核生化灾害之后及时高效的救援是减少人员伤亡、财产损失的关键,建立并分析核生化灾害应急救援指挥体系结构模型,提升指挥决策能力十分必要。针对核生化灾害的一般特点,根据美国国防部体系结构框架2.0 (Department of Defense Architecture Framework,DoDAF 2.0)提供的建模指导与标准,构建了核生化灾害应急救援指挥体系模型并生成了多种DoDAF视图,从不同的视角、不同的层次描述了该系统结构,为高效处置核生化灾害,圆满完成救援任务打下坚实基础。
+{Database Provider}: CNKI
+
+{Reference Type}: Journal Article
+{Title}: 虚实一体化试验基本概念与系统结构设计
+{Author}: 付朝博;郭齐胜;董志明;
+{Author Address}: 陆军装甲兵学院演训中心;解放军31674部队;
+{Journal}: 指挥与控制学报
+{Year}: 2020
+{Volume}: 6
+{Issue}: 03
+{Pages}: 257-263
+{Keywords}: 体系试验;虚实一体化试验;系统结构;DoDAF
+{Abstract}: 为解决传统的装备试验难以检验装备体系作战效能的问题,阐述了虚实一体化试验的概念,采用DoDAF规范和标准,运用框架设计方法,从业务视图、能力视图和系统视图等视角对装备体系虚实一体化试验的系统结构进行了设计,旨在加深对装备试验理论与方法的认识和理解,为研究装备体系试验提供参考和借鉴.
+{ISBN/ISSN}: 2096-0204
+{Notes}: 14-1379/TP
+{Database Provider}: CNKI
+
+{Reference Type}: Journal Article
+{Title}: Modeling of Reef Distributed Reconnaissance and Early Warning System Based on DoDAF
+{Author}: Yan Wang;Wang Yan;Chen Jian;Na Chenxu;Li Zhicheng;Gao Song
+{Author Address}: Naval aeronautical university, Yantai 264001, China.;91913 Troop, Dalian 116041.
+{Journal}: Journal of Physics: Conference Series
+{Year}: 2020
+{Issue}: 1
+{Volume}: 1646
+{Abstract}: In view of the new requirements of the reconnaissance and early warning system in the complex battlefield environment, a distributed architecture design method for the early warning and reconnaissance of reefs is proposed. This paper presents the design process of DoDAF based distributed reconnaissance and early warning architecture framework for reefs, constructs the architecture model of specific operational activities by using TD-CAP software, describes the relationship between various combat platforms from different perspectives through different views, and evaluates the consistency and operational effectiveness of the distributed detection and early warning system. The evaluation results show that the model has good integrity and consistency, and the combat effectiveness is significantly improved compared with the non distributed reconnaissance and early warning system.
+{ISBN/ISSN}: 1742-6596
+{Database Provider}: CNKI
+
+{Reference Type}: Thesis
+{Title}: DoDAF体系结构设计模型专家评阅系统研建
+{Author}: 刘人华
+{Tertiary Author}: 许福;董书瀚
+{Publisher}: 北京林业大学
+{Type of Work}: 硕士
+{Year}: 2020
+{Keywords}: DoDAF软件体系结构框架;软件体系结构评阅;图形标注
+{Abstract}: 体系结构在软件开发过程中十分重要,其设计成果好坏将直接影响到软件性能。因此,有必要在设计完成后组织专家评阅成果质量,在此过程中尽可能消除其中不合理的部分,从而为后续开发工作的顺利开展奠定基础。经调研发现,现阶段市场上缺乏可供专家使用的软件体系结构评阅工具。为解决这一问题,本文以成熟的Do DAF软件体系结构框架为基础,结合实际应用需求开发出一套Do DAF体系结构设计模型专家评阅系统,供系统管理员、评阅专家及软件体系结构设计人员使用。经过广泛调研,本文最终选择统一建模语言UML对Do DAF软件体系结构中各视角及模型进行描述,以此为基础提出了针对性的专家评阅系统设计与实现方法。本文首先介绍了专家评阅系统的相关开发技术,确定了系统的总体需求,以实际应用场景为基础展开功能性及非功能性需求分析。此外,对系统进行了整体架构、各功能模块设计以及数据库设计。随后阐述了专家评阅系统中各功能模块的具体实现过程,展示了实现效果。最后对系统进行测试,并就结果展开分析。Do DAF体系结构设计模型专家评阅系统采用B/S结构,包含体系结构项目管理、评阅任务指派、体系结构模型标注、评阅意见交流、评阅结果对比及用户管理共六大模块。体系结构项目管理模块包括项目导入、项目信息编辑、项目导出、项目移除等功能;评阅任务指派模块包括评阅人员添加、评阅人员移除、评阅任务指派、评阅任务状态变更等功能;体系结构模型标注模块包括标注添加、鼠标手势同步、标注编辑、标注移除、历史标注复现等功能;评阅意见交流模块包括评论区意见添加、意见接收人指定、意见处理状态变更等功能;评阅结果对比模块包括历史版本阅览、评阅版本对比以及评阅意见汇总等功能。系统现处于试运行阶段,便捷易用,用户体验及性能表现良好,满足了实际应用场景需求,填补了市场空白。
+{Database Provider}: CNKI
+
+{Reference Type}: Journal Article
+{Title}: 作战体系建模方法与应用
+{Author}: 刘德胜;马宝林;葛亚维;
+{Author Address}: 军事科学院评估论证研究中心;
+{Journal}: 指挥控制与仿真
+{Year}: 2020
+{Volume}: 42
+{Issue}: 05
+{Pages}: 1-6
+{Keywords}: 体系;作战体系;建模
+{Abstract}: 针对作战体系建模的核心问题,从建模方法和建模应用两个方面进行了综合概括,对作战体系建模的主要做法、基本内容、主要步骤、主要特点等进行了系统阐述,指出基于复杂网络理论的作战体系建模方法和基于实体的作战体系建模方法是当前最主要的两种建模方法,概括了作战体系建模三方面的应用,最后,从整体上对作战体系建模方法和应用的现状及存在的问题进行了总结,可为更加深入地开展作战体系建模研究提供借鉴。
+{ISBN/ISSN}: 1673-3819
+{Notes}: 32-1759/TJ
+{Database Provider}: CNKI
+
+{Reference Type}: Journal Article
+{Title}: 国防科技创新体系架构框架初探
+{Author}: 戴伟;丁禹;
+{Author Address}: 中国人民解放军32179部队;
+{Journal}: 科学管理研究
+{Year}: 2020
+{Volume}: 38
+{Issue}: 04
+{Pages}: 22-28
+{Keywords}: 国防科技创新体系;体系架构框架;DODAF;SysML
+{Abstract}: 加快国防科技创新体系建设,探索适合我国国情的国防科技创新体系发展之路具有重要的战略意义。在借鉴DODAF、MODAF等相关技术基础上,结合我国国防科技发展实际,采用体系工程思路初步设计了国防科技创新体系架构框架的主要内容、方法和模型,为推动我国国防科技创新体系又好又快发展提供理论参考。
+{ISBN/ISSN}: 1004-115X
+{Notes}: 15-1103/G3
+{Database Provider}: CNKI
+
+{Reference Type}: Journal Article
+{Title}: 天基海洋侦察监视系统作战体系结构建模研究
+{Author}: 万敏;侯妍;王乾;
+{Author Address}: 航天工程大学;中国人民解放军95685部队;
+{Journal}: 现代防御技术
+{Year}: 2020
+{Volume}: 48
+{Issue}: 04
+{Pages}: 34-43
+{Keywords}: 海洋侦察监视;体系结构;美国国防部体系结构框架;作战视角;建模步骤;作战体系结构模型
+{Abstract}: 天基海洋侦察监视系统是远海作战、近海防卫、海上精确打击等海上作战行动的重要情报信息来源,是支撑打赢现代海战的重要力量。在描述天基海洋侦察监视系统组成与功能的基础上,基于OODA环作战理论给出了系统作战流程。在作战应用层面,从作战视角出发,基于美国国防部体系结构框架(DoDAF),给出了天基海洋侦察监视系统作战体系结构的建模步骤,并建立了相关模型。研究结果可为开展天基海洋侦察监视系统的作战应用研究和顶层设计提供借鉴和参考。
+{ISBN/ISSN}: 1009-086X
+{Notes}: 11-3019/TJ
+{Database Provider}: CNKI
+
+{Reference Type}: Conference Proceedings
+{Title}: 基于DoDAF的航空搜救场景体系架构设计
+{Tertiary Title}: 2020（第九届）民用飞机航电国际论坛论文集
+{Author}: 区昊辰;邹贵;厉骏;
+{Author Address}: 中国航空无线电电子研究所;中航通飞华南飞机工业有限公司;
+{Secondary Title}: 2020（第九届）民用飞机航电国际论坛
+{Place Published}: 中国上海
+{Subsidiary Author,}: 中国航空学会
+{Year}: 2020
+{Pages}: 10
+{Keywords}: 架构设计;DoDAF;两栖飞机
+{Abstract}: 随着航空技术的日新月异,航空装备在海上搜救中逐渐担负着越来越重要的使命。本文通过基于模型的系统工程方法,分析航空装备在海上搜救中的体系应用场景。为了结构化、规范化地描述航空装备的应用和开展需求分析,本文采用美国国防部体系结构框架(Department of Defence Architecture Framework,DoDAF)构建两栖飞机航空救援场景架构,并通过该架构完成了两栖飞机搜救能力分析。
+{Database Provider}: CNKI
+
+{Reference Type}: Journal Article
+{Title}: 基于能力的反舰导弹武器装备体系结构建模方法
+{Author}: 宋贵宝;宋佳明;刘磊;
+{Author Address}: 海军航空大学岸防兵学院;
+{Journal}: 兵工自动化
+{Year}: 2020
+{Volume}: 39
+{Issue}: 07
+{Pages}: 71-75
+{Keywords}: 反舰导弹;武器装备体系结构;作战能力;映射
+{Abstract}: 为提高水面舰艇及其编队的威慑力精确打击能力,对反舰导弹武器装备体系结构建模方法进行研究。根据DoDAF建模思路,通过分析体系作战能力需求,建立能力层级逻辑关系图、体系能力与子能力分解图、子能力与系统及实体的映射关系图,结合相应的视图产品,构建反舰导弹武器装备体系结构。该研究可为反舰导弹武器装备发展论证和体系评估提供参考,具有较高的使用价值。
+{ISBN/ISSN}: 1006-1576
+{Notes}: 51-1419/TP
+{Database Provider}: CNKI
+
+{Reference Type}: Journal Article
+{Title}: 基于DoDAF的装备维修保障能力评估
+{Author}: 连云峰;代冬升;连光耀;李会杰;
+{Author Address}: 中国人民解放军32181部队;
+{Journal}: 兵工自动化
+{Year}: 2020
+{Volume}: 39
+{Issue}: 06
+{Pages}: 49-52
+{Keywords}: DoDAF;装备维修;能力评估
+{Abstract}: 针对当前维修保障能力评估研究缺乏对装备维修保障能力规范化描述环节,对评估实施规范性不强的问题,将DoDAF技术引入装备维修保障能力评估领域。在构建装备维修保障能力评估指标体系的基础上,设计基于DoDAF的装备维修保障能力评估思路,规范装备维修保障能力描述内容,提出建模步骤,并通过实例进行验证。结果表明:该研究能实现评估指标和评估方法之间的有效衔接,为全面描述和客观评估维修保障能力建设情况提供技术支撑。
+{ISBN/ISSN}: 1006-1576
+{Notes}: 51-1419/TP
+{Database Provider}: CNKI
+
+{Reference Type}: Journal Article
+{Title}: 基于DoDAF的有人/无人机协同作战体系结构建模
+{Author}: 王新尧;曹云峰;孙厚俊;韦彩色;陶江;
+{Author Address}: 南京航空航天大学航天学院;洛阳电光设备研究所;
+{Journal}: 系统工程与电子技术
+{Year}: 2020
+{Volume}: 42
+{Issue}: 10
+{Pages}: 2265-2274
+{Keywords}: 美国国防部体系结构框架;有人/无人机;协同作战;体系结构
+{Abstract}: 有人/无人机(manned/unmanned aerial vehicle,MAV/UAV)协同作战是未来战场中重要的空中作战模式。由于MAV/UAV协同作战体系系统复杂、涉及作战节点多,需从系统工程的角度对整体作战体系进行顶层设计,并采用统一的结构框架对该体系结构建模。首先,引入美国国防部体系结构框架(Department of Defense architecture framework,DoDAF),提出一种体系结构快速开发方法,并给出开发步骤。然后,利用视图模型,对MAV/UAV协同作战体系的系统功能、作战任务活动、各作战节点的信息交互及组织关系等建立模型。最后,通过动态仿真对模型进行验证。结果表明,所提作战体系的执行状态与预期的作战流程一致,体系结构设计合理,系统内各作战节点定义及信息体系结构描述具备一致性和协调性。
+{ISBN/ISSN}: 1001-506X
+{Notes}: 11-2422/TN
+{Database Provider}: CNKI
+
+{Reference Type}: Journal Article
+{Title}: 基于结构熵权法和HFWGHM算子的海上救援航空应急资源布局评价方法研究
+{Author}: 俎富豪;赵秋红;
+{Author Address}: 北京航空航天大学经济管理学院;城市安全运行与应急保障北京市国际科技合作基地;
+{Journal}: 数学的实践与认识
+{Year}: 2019
+{Volume}: 49
+{Issue}: 19
+{Pages}: 128-138
+{Keywords}: 海上救援;布局评价;结构熵权法;HFWGHM算子
+{Abstract}: 研究海上救援航空应急资源的布局评价方法,构建了四阶段的资源布局评价模型.在评价结果分类的基础上,利用鱼骨图和专家法分析了影响布局效果的主要因素,构建了布局评价指标体系,并利用结构熵权法完成了指标的赋权;在评估中,综合考虑指标的权重和评价的模糊性,利用HFWGHM算子对指标分层集成.模型可以同时评估资源布局的总体效果和各细分指标的表现.
+{ISBN/ISSN}: 1000-0984
+{Notes}: 11-2018/O1
+{Database Provider}: CNKI
+
+
+
